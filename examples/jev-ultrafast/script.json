@@ -1,0 +1,141 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+18%",
+  "lines": [
+    {
+      "id": "hook",
+      "shot": null,
+      "text": "居然有比Codex的computer use更快速的agent！",
+      "title": "比Codex computer use还快",
+      "nocap": true
+    },
+    {
+      "id": "hook2",
+      "shot": null,
+      "text": "那就不要错过这个开源项目。",
+      "nocap": true
+    },
+    {
+      "id": "name",
+      "shot": "repo",
+      "text": "记住这个名字，jev-ultrafast，Browser Use官方出的极速浏览器agent，刚开源3天，在GitHub已狂揽5千star。",
+      "kw": [
+        "jev-ultrafast",
+        "Browser Use",
+        "5千star"
+      ],
+      "cues": [
+        {
+          "at": "记住",
+          "mark": "repo"
+        },
+        {
+          "at": "5千",
+          "shot": "stars",
+          "mark": "stars"
+        }
+      ],
+      "src": "https://github.com/browser-use/jev-ultrafast"
+    },
+    {
+      "id": "demo",
+      "shot": "demo",
+      "text": "先看效果，一句话让它在谷歌航班搜苏黎世到伦敦的机票，从输入到出结果7秒搞定，视频还是1倍速。",
+      "kw": [
+        "7秒",
+        "1倍速"
+      ],
+      "cues": [
+        {
+          "at": "7秒",
+          "sticker": "7秒搜完机票"
+        }
+      ],
+      "src": "https://github.com/browser-use/jev-ultrafast#readme (demo.gif, Evidence and limits)"
+    },
+    {
+      "id": "how1",
+      "shot": "table",
+      "text": "它为什么快？它不看截图，把页面上的按钮、输入框全部编号，列成一张表，Jev模型直接选：点第几个、在第几个打字。",
+      "kw": [
+        "不看截图",
+        "编号",
+        "Jev模型"
+      ],
+      "cues": [
+        {
+          "at": "编号",
+          "mark": "table"
+        },
+        {
+          "at": "Jev模型",
+          "shot": "ops",
+          "mark": "ops"
+        }
+      ],
+      "src": "README: The action space / Why it moves"
+    },
+    {
+      "id": "how2",
+      "shot": "flow",
+      "text": "只有要打字的时候，才叫一个小模型来生成文字。选动作、选目标，合成一次请求。",
+      "kw": [
+        "小模型",
+        "一次请求"
+      ],
+      "cues": [
+        {
+          "at": "小模型",
+          "mark": "flow"
+        },
+        {
+          "at": "选动作",
+          "sticker": "两个决定一次请求"
+        }
+      ],
+      "src": "README: ASCII diagram, 'Two decisions, one network round trip'"
+    },
+    {
+      "id": "perf",
+      "shot": "perf",
+      "text": "实测同样的任务，浏览器协议调用从1092次降到101次，耗时少了25%。",
+      "kw": [
+        "1092次",
+        "101次",
+        "25%"
+      ],
+      "cues": [
+        {
+          "at": "1092",
+          "mark": "perf"
+        }
+      ],
+      "src": "README: Evidence and limits / docs/performance.md"
+    },
+    {
+      "id": "small",
+      "shot": "files",
+      "text": "整个agent只有6个文件，主循环就在agent.py里，官方说小到能读完。",
+      "kw": [
+        "6个文件",
+        "agent.py"
+      ],
+      "cues": [
+        {
+          "at": "6个",
+          "mark": "files"
+        }
+      ],
+      "src": "README: Small enough to read"
+    },
+    {
+      "id": "cta",
+      "shot": null,
+      "text": "想试试的兄弟赶紧冲。记得点赞、关注我，持续分享高质量的开源项目，一起进步，我们下期再见。",
+      "kw": [
+        "点赞",
+        "关注"
+      ]
+    }
+  ]
+}

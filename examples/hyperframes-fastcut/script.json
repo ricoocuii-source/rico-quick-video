@@ -1,0 +1,274 @@
+{
+ "voice": "zh-CN-XiaoxiaoNeural",
+ "rate": "+18%",
+ "lines": [
+  {
+   "id": "hook",
+   "shot": "intro",
+   "nocap": true,
+   "title": "AI做视频，靠的就是它",
+   "text": "AI做视频，靠的就是它",
+   "kw": [],
+   "cues": []
+  },
+  {
+   "id": "burst1",
+   "text": "先看效果",
+   "kw": [],
+   "cues": [
+    {
+     "at": "先看",
+     "shot": "hero_clip"
+    }
+   ]
+  },
+  {
+   "id": "burst2",
+   "text": "转场、特效、竖屏封面，全是代码出的",
+   "kw": [
+    "代码出的"
+   ],
+   "cues": []
+  },
+  {
+   "id": "name1",
+   "text": "记住这个名字HyperFrames",
+   "kw": [
+    "HyperFrames"
+   ],
+   "cues": [
+    {
+     "at": "记住",
+     "shot": "repo",
+     "mark": "repo"
+    }
+   ]
+  },
+  {
+   "id": "name2",
+   "text": "写HTML就能渲出视频",
+   "kw": [
+    "HTML"
+   ],
+   "cues": [
+    {
+     "at": "写H",
+     "shot": "about",
+     "mark": "about",
+     "style": "select"
+    }
+   ]
+  },
+  {
+   "id": "name3",
+   "text": "在GitHub已经狂揽5.1万star",
+   "kw": [
+    "5.1万star"
+   ],
+   "cues": [
+    {
+     "at": "在Git",
+     "shot": "star",
+     "trans": "push",
+     "mark": "star",
+     "counter": "51.5k"
+    }
+   ]
+  },
+  {
+   "id": "what1",
+   "text": "它把一个网页当成一条视频",
+   "kw": [
+    "网页"
+   ],
+   "cues": [
+    {
+     "at": "它把",
+     "shot": "hero_what"
+    }
+   ]
+  },
+  {
+   "id": "what2",
+   "text": "布局用HTML，动效直接上GSAP",
+   "kw": [
+    "GSAP"
+   ],
+   "cues": []
+  },
+  {
+   "id": "what3",
+   "text": "渲出来每一帧都是确定的",
+   "kw": [
+    "确定"
+   ],
+   "cues": []
+  },
+  {
+   "id": "plain",
+   "text": "简单来说，会写网页就会做视频",
+   "kw": [
+    "会写网页"
+   ],
+   "cues": [
+    {
+     "at": "会写",
+     "sticker": "代码出片"
+    }
+   ]
+  },
+  {
+   "id": "agent1",
+   "text": "它就是给agent设计的",
+   "kw": [
+    "agent"
+   ],
+   "cues": [
+    {
+     "at": "它就是",
+     "shot": "hero_agent",
+     "trans": "push"
+    }
+   ]
+  },
+  {
+   "id": "agent2",
+   "text": "一行命令装上21个skills",
+   "kw": [
+    "21个skills"
+   ],
+   "cues": []
+  },
+  {
+   "id": "agent3",
+   "text": "Claude Code、Cursor都能用",
+   "kw": [
+    "Cursor"
+   ],
+   "cues": []
+  },
+  {
+   "id": "agent5",
+   "text": "它自己写页面、接动画、跑检查、出成片",
+   "kw": [
+    "出成片"
+   ],
+   "cues": [
+    {
+     "at": "写页面",
+     "task": "写页面"
+    },
+    {
+     "at": "接动画",
+     "task": "接动画"
+    },
+    {
+     "at": "跑检查",
+     "task": "跑检查"
+    },
+    {
+     "at": "出成片",
+     "task": "出成片"
+    }
+   ]
+  },
+  {
+   "id": "eco1",
+   "text": "转场、字幕、动态图表，全是现成组件",
+   "kw": [
+    "现成组件"
+   ],
+   "cues": [
+    {
+     "at": "转场",
+     "shot": "catalog"
+    }
+   ],
+   "badges": [
+    "转场",
+    "字幕",
+    "动态图表"
+   ]
+  },
+  {
+   "id": "eco3",
+   "text": "官方还给了一整排设计模板",
+   "kw": [
+    "设计模板"
+   ],
+   "cues": [
+    {
+     "at": "官方",
+     "shot": "design",
+     "trans": "push"
+    }
+   ]
+  },
+  {
+   "id": "eco4",
+   "text": "看上哪个直接改",
+   "kw": [],
+   "cues": []
+  },
+  {
+   "id": "noreact1",
+   "text": "不用碰React，不用配构建",
+   "kw": [
+    "React"
+   ],
+   "cues": [
+    {
+     "at": "不用碰",
+     "shot": "hero_cmd"
+    }
+   ]
+  },
+  {
+   "id": "noreact2",
+   "text": "一个index.html打开就能播",
+   "kw": [
+    "index.html"
+   ],
+   "cues": [
+    {
+     "at": "一个",
+     "sticker": "即开即用"
+    }
+   ]
+  },
+  {
+   "id": "adopters1",
+   "text": "HeyGen生产线在用",
+   "kw": [
+    "HeyGen"
+   ],
+   "cues": [
+    {
+     "at": "HeyGen",
+     "shot": "community",
+     "mark": "community",
+     "style": "select"
+    }
+   ]
+  },
+  {
+   "id": "adopters2",
+   "text": "tldraw、TanStack也跟进了",
+   "kw": [
+    "tldraw"
+   ],
+   "cues": []
+  },
+  {
+   "id": "cta",
+   "text": "感兴趣的兄弟快去冲吧",
+   "kw": [],
+   "cues": [
+    {
+     "at": "感兴趣",
+     "shot": "hero_end"
+    }
+   ]
+  }
+ ]
+}

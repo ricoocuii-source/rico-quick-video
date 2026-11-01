@@ -1,0 +1,66 @@
+{
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "color_scheme": "dark",
+  "shots": [
+    {
+      "id": "intro",
+      "url": "file:///Users/cuiguangzhen/projects/自动化视频研究/jev-ultrafast-browser-use/assets/intro.html",
+      "target": "#box",
+      "action": "point",
+      "role": "intro"
+    },
+    {
+      "id": "repo",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "target": "strong[itemprop=name] a",
+      "action": "hover"
+    },
+    {
+      "id": "stars",
+      "target": "#repo-stars-counter-star",
+      "up": 2,
+      "action": "point"
+    },
+    {
+      "id": "demo",
+      "video_src": "assets/demo.gif",
+      "record": 10,
+      "bg": "#f5f5ed",
+      "zoom": 1.1,
+      "focus": [
+        0.5,
+        0.45
+      ]
+    },
+    {
+      "id": "table",
+      "url": "https://github.com/browser-use/jev-ultrafast",
+      "target": "article pre:has-text('Change ticket type')",
+      "action": "point"
+    },
+    {
+      "id": "ops",
+      "text": "The operations are",
+      "action": "point"
+    },
+    {
+      "id": "flow",
+      "target": "article pre:has-text('one TypeSafe request')",
+      "action": "point"
+    },
+    {
+      "id": "perf",
+      "text": "In six alternating runs",
+      "action": "point"
+    },
+    {
+      "id": "files",
+      "target": "article h2:has-text('Small enough to read')",
+      "action": "hover",
+      "extend": 1
+    }
+  ]
+}

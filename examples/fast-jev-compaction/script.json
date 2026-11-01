@@ -1,0 +1,146 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+18%",
+  "lines": [
+    {
+      "id": "hook",
+      "shot": null,
+      "title": "compact完就失忆？",
+      "text": "上下文压缩后，你的agent是不是就失忆了？",
+      "nocap": true
+    },
+    {
+      "id": "hook2",
+      "shot": null,
+      "text": "那就不要错过这个开源项目。",
+      "nocap": true
+    },
+    {
+      "id": "name",
+      "shot": "repo",
+      "text": "记住这个名字，fast-jev-compaction，替换Claude Code的compact总结，开源两天，GitHub已狂揽2900star。",
+      "kw": [
+        "fast-jev-compaction",
+        "compact总结",
+        "2900star"
+      ],
+      "cues": [
+        {
+          "at": "记住",
+          "mark": "repo"
+        },
+        {
+          "at": "2900",
+          "shot": "stars",
+          "mark": "stars"
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "shot": "why",
+      "text": "平时compact，是让大模型把老对话总结一遍，总结有损，文件路径、报错原文、你定的约束，说没就没。",
+      "kw": [
+        "有损",
+        "文件路径",
+        "报错原文",
+        "说没就没"
+      ],
+      "cues": [
+        {
+          "at": "总结有损",
+          "mark": "why"
+        },
+        {
+          "at": "报错",
+          "sticker": "总结＝丢东西"
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "shot": "how",
+      "text": "这个插件不总结不改写，把每个tool call和结果交给Jev打分：原样保留、截断、或者整条删掉。你和agent说的话一字不动。",
+      "kw": [
+        "不总结不改写",
+        "Jev打分",
+        "一字不动"
+      ],
+      "cues": [
+        {
+          "at": "这个插件",
+          "mark": "how"
+        },
+        {
+          "at": "你和agent",
+          "sticker": "一字不动"
+        }
+      ]
+    },
+    {
+      "id": "jev",
+      "shot": "tweet_ceo",
+      "text": "打分用的Jev，是ChatGPT联合发明人刚发的新模型，不出文字只出概率，快20到200倍。发布推在X上6.9万赞。",
+      "kw": [
+        "ChatGPT联合发明人",
+        "只出概率",
+        "20到200倍",
+        "6.9万赞"
+      ],
+      "cues": [
+        {
+          "at": "打分用的",
+          "mark": "tweet_ceo"
+        },
+        {
+          "at": "发布推",
+          "mark": "tweet_ceo_likes"
+        }
+      ]
+    },
+    {
+      "id": "safe",
+      "shot": "fallback",
+      "text": "装上以后compact全走Jev，弹个toast告诉你留了多少条。Jev挂了或者删得太少，自动退回自带总结。",
+      "kw": [
+        "toast",
+        "自动退回"
+      ],
+      "cues": [
+        {
+          "at": "弹个",
+          "mark": "fallback"
+        },
+        {
+          "at": "Jev挂了",
+          "sticker": "挂了也不怕"
+        }
+      ]
+    },
+    {
+      "id": "key",
+      "shot": "tweet_waitlist",
+      "text": "唯一门槛，得先去TypeSafe领Jev的key，这两天正在大批放waitlist。",
+      "kw": [
+        "TypeSafe",
+        "key",
+        "大批放"
+      ],
+      "cues": [
+        {
+          "at": "唯一",
+          "mark": "tweet_waitlist"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "shot": null,
+      "text": "想试试的兄弟赶紧冲。记得点赞、关注我，持续分享高质量的开源项目，一起进步，我们下期再见。",
+      "kw": [
+        "点赞",
+        "关注"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+ "viewport": {
+  "width": 1600,
+  "height": 1000
+ },
+ "color_scheme": "light",
+ "shots": [
+  {
+   "id": "warmup",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "scroll_to": 0
+  },
+  {
+   "id": "hero_clip",
+   "video_src": "assets/hero_clip.mp4",
+   "record": 5.5,
+   "bg": "#f0efe9"
+  },
+  {
+   "id": "hero_what",
+   "video_src": "assets/hero_what.mp4",
+   "record": 9.5,
+   "bg": "#f0efe9"
+  },
+  {
+   "id": "hero_agent",
+   "video_src": "assets/hero_agent.mp4",
+   "record": 8,
+   "bg": "#f0efe9",
+   "bbox": {
+    "x": 60,
+    "y": 180,
+    "width": 760,
+    "height": 620
+   }
+  },
+  {
+   "id": "hero_cmd",
+   "video_src": "assets/hero_cmd.mp4",
+   "record": 6,
+   "bg": "#0a0a0a"
+  },
+  {
+   "id": "hero_end",
+   "video_src": "assets/hero_end.mp4",
+   "record": 6,
+   "bg": "#f0efe9"
+  },
+  {
+   "id": "repo",
+   "target": "strong[itemprop=name] a",
+   "action": "point"
+  },
+  {
+   "id": "star",
+   "target": "#repo-stars-counter-star",
+   "up": 2,
+   "action": "point"
+  },
+  {
+   "id": "about",
+   "target": "p[class*=SidebarAbout]",
+   "action": "select",
+   "mark_style": "select"
+  },
+  {
+   "id": "community",
+   "text": "is used in production at",
+   "action": "select",
+   "mark_style": "select"
+  },
+  {
+   "id": "intro",
+   "role": "intro",
+   "url": "https://hyperframes.heygen.com/introduction",
+   "target": "h1",
+   "extend": 3,
+   "action": "point",
+   "intro_style": "flash"
+  },
+  {
+   "id": "catalog",
+   "url": "https://hyperframes.heygen.com/catalog/blocks/data-chart",
+   "record": 6,
+   "settle": 3,
+   "scroll": [
+    [
+     1.5,
+     500
+    ]
+   ]
+  },
+  {
+   "id": "design",
+   "url": "https://www.hyperframes.dev/design",
+   "record": 7,
+   "settle": 3,
+   "scroll": [
+    [
+     1.5,
+     700
+    ],
+    [
+     3.5,
+     1500
+    ]
+   ]
+  }
+ ]
+}

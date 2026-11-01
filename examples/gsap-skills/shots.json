@@ -1,0 +1,104 @@
+{
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "color_scheme": "dark",
+  "shots": [
+    {
+      "id": "repo",
+      "url": "https://github.com/greensock/gsap-skills",
+      "target": "strong[itemprop=name] a",
+      "action": "hover"
+    },
+    {
+      "id": "stars",
+      "target": "#repo-stars-counter-star",
+      "action": "point"
+    },
+    {
+      "id": "hero",
+      "url": "https://gsap.com",
+      "record": 6.5,
+      "settle": 1.5,
+      "scroll": [
+        [
+          2.4,
+          900
+        ],
+        [
+          4.4,
+          1900
+        ]
+      ],
+      "zoom": 1.12
+    },
+    {
+      "id": "showcase",
+      "url": "https://gsap.com/showcase/",
+      "record": 5.5,
+      "settle": 2,
+      "scroll": [
+        [
+          0.6,
+          2300
+        ]
+      ],
+      "hover_text": "IKEA",
+      "hover_up": 3,
+      "zoom": 1.45
+    },
+    {
+      "id": "demos",
+      "url": "https://demos.gsap.com/",
+      "record": 6,
+      "settle": 2.5,
+      "scroll": [
+        [
+          1.0,
+          500
+        ],
+        [
+          2.8,
+          1100
+        ],
+        [
+          4.5,
+          1800
+        ]
+      ],
+      "zoom": 1.15
+    },
+    {
+      "id": "skills",
+      "url": "https://github.com/greensock/gsap-skills",
+      "target": "article h2:has-text('Skills')",
+      "action": "hover",
+      "extend": 2
+    },
+    {
+      "id": "pain_react",
+      "text": "useGSAP + scope + cleanup",
+      "action": "point"
+    },
+    {
+      "id": "pain_st",
+      "text": "ScrollTrigger.refresh()",
+      "action": "point"
+    },
+    {
+      "id": "free",
+      "text": "GSAP is 100% free",
+      "up": 1,
+      "action": "select"
+    },
+    {
+      "id": "banner",
+      "url": "https://github.com/greensock/gsap-skills",
+      "target": "article div.snippet-clipboard-content",
+      "action": "point",
+      "extend": 3,
+      "role": "intro"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+18%",
+  "lines": [
+    {"id": "hook",  "shot": null, "text": "vibecoding太丑？", "title": "vibecoding太丑？", "nocap": true},
+    {"id": "hook2", "shot": null, "text": "那就不要错过这个开源项目。", "nocap": true},
+    {"id": "name",  "shot": "repo", "text": "记住这个名字，GSAP官方出的AI技能包，在GitHub已狂揽1.5万star。",
+      "kw": ["GSAP", "AI技能包", "1.5万star"],
+      "cues": [{"at": "记住", "mark": "repo"}, {"at": "1.5万", "shot": "stars", "mark": "stars"}]},
+    {"id": "hero",  "shot": "hero", "text": "先看它的官网，文字拆分、路径变形、滚动驱动，网页上那些丝滑动效背后就是这个GSAP。",
+      "kw": ["文字拆分", "路径变形", "滚动驱动", "丝滑动效", "GSAP"],
+      "cues": [{"at": "丝滑", "sticker": "动效天花板"}]},
+    {"id": "showcase", "shot": "showcase", "text": "宜家、Webflow这些大厂的官网动效，全是GSAP做的。",
+      "kw": ["大厂", "GSAP"],
+      "cues": [{"at": "宜家", "mark": "showcase"}]},
+    {"id": "demos", "shot": "demos", "text": "官方demo库几百个效果，滚动触发、磁吸按钮、横向画廊，直接复用。",
+      "kw": ["几百个效果", "直接复用"], "badges": ["滚动触发", "磁吸按钮", "横向画廊"]},
+    {"id": "skills", "shot": "skills", "text": "这次官方把整套经验打包成8个skill喂给AI，时间线怎么排、滚动怎么触发，全变成AI的默认写法。",
+      "kw": ["8个skill", "默认写法"],
+      "cues": [{"at": "8个", "mark": "skills"}, {"at": "默认写法", "sticker": "8个skill"}]},
+    {"id": "pain", "shot": "pain_react", "text": "专治两个老毛病：React里动画不清理，一切页就内存泄漏；布局一变，ScrollTrigger就错位。",
+      "kw": ["内存泄漏", "错位"],
+      "cues": [{"at": "React", "mark": "pain_react"}, {"at": "布局", "shot": "pain_st", "mark": "pain_st"}]},
+    {"id": "free", "shot": "free", "text": "曾经收米的企业级插件，SplitText、MorphSVG，现在全部免米！",
+      "kw": ["全部免米"],
+      "cues": [{"at": "曾经", "mark": "free"}, {"at": "全部", "sticker": "全部免米"}]},
+    {"id": "cta", "shot": null, "text": "想试试的兄弟赶紧冲。记得点赞、关注我，持续分享高质量的开源项目，一起进步，我们下期再见。",
+      "kw": ["点赞", "关注"]}
+  ]
+}

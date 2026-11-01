@@ -1,0 +1,16 @@
+{
+  "viewport": {"width": 1600, "height": 1000},
+  "color_scheme": "dark",
+  "shots": [
+    {"id":"intro","url":"https://github.com/tamaratran/fast-jev-compaction","target":"strong[itemprop=name] a","action":"point","role":"intro",
+     "hide":[".js-notification-shelf","#js-flash-container"]},
+    {"id":"repo","target":"strong[itemprop=name] a","action":"hover"},
+    {"id":"stars","target":"#repo-stars-counter-star","up":2,"action":"point"},
+    {"id":"why","text":"Most context compaction asks an LLM to summarize old turns","action":"point"},
+    {"id":"how","text":"Decisions per call, against","action":"point"},
+    {"id":"fallback","text":"The install prompts for the plugin options","action":"point"},
+    {"id":"tweet_ceo","url":"file:///Users/cuiguangzhen/projects/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%A7%86%E9%A2%91%E7%A0%94%E7%A9%B6/fast-jev-compaction/assets/tweet_ceo.html","settle":7000,"frame":"#twitter-widget-0","target":"article","action":"point"},
+    {"id":"tweet_ceo_likes","frame":"#twitter-widget-0","text":"6.9万","up":2,"action":"point"},
+    {"id":"tweet_waitlist","url":"file:///Users/cuiguangzhen/projects/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%A7%86%E9%A2%91%E7%A0%94%E7%A9%B6/fast-jev-compaction/assets/tweet_waitlist.html","settle":7000,"frame":"#twitter-widget-0","target":"article","action":"point"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+18%",
+  "lines": [
+    {"id": "hook",  "shot": null, "text": "还在手搓 CAD 模型？", "title": "还在手搓 CAD 模型？", "nocap": true},
+    {"id": "hook2", "shot": null, "text": "那就不要错过这个开源项目。", "nocap": true},
+
+    {"id": "name", "shot": "repo", "text": "记住这个名字，text-to-cad，让 agent 画 CAD 的技能包，GitHub 已狂揽 1.5 万 star。",
+      "kw": ["agent", "技能包", "1.5 万 star"],
+      "cues": [{"at": "记住", "mark": "repo"}, {"at": "1.5", "shot": "stars", "mark": "stars"}]},
+
+    {"id": "what", "shot": "hero", "text": "它把 CAD 塞进 agent，说一句话，零件就画好了。",
+      "kw": ["CAD", "agent", "一句话"],
+      "cues": [{"at": "塞进", "sticker": "一句话出图"}]},
+
+    {"id": "viewer", "shot": "viewer", "text": "画完的模型，本地浏览器就能打开预览，还能转着看。",
+      "kw": ["本地浏览器", "预览"],
+      "cues": [{"at": "本地浏览器", "mark": "viewer"}]},
+
+    {"id": "skills", "shot": "skills", "text": "11 个 skill，从画模型、出二维图纸，到机器人描述、切片打印，整条链全覆盖。",
+      "kw": ["11 个 skill", "全覆盖"],
+      "badges": ["画模型", "二维图纸", "机器人描述", "切片打印"]},
+
+    {"id": "parts", "shot": "parts", "text": "螺丝、轴承、电机这些标准件，不用自己建，它直接给你找出成品 STEP 文件。",
+      "kw": ["标准件", "STEP 文件"],
+      "cues": [{"at": "不用自己建", "mark": "parts"}]},
+
+    {"id": "robot", "shot": "robot", "text": "机器人也能搞，结构文件、MoveIt 规划组、仿真世界，一次写全。",
+      "kw": ["机器人", "MoveIt 规划组", "仿真世界"],
+      "cues": [{"at": "机器人", "sticker": "结构到仿真"}]},
+
+    {"id": "dfam", "shot": "dfam", "text": "造之前它会先检查，壁厚、悬垂、支撑量、摆放方向，全给你算清楚。",
+      "kw": ["壁厚", "悬垂", "支撑量"],
+      "cues": [{"at": "壁厚", "mark": "dfam"}]},
+
+    {"id": "print", "shot": "print", "text": "连切片和打印都包了，真切片器切好，直接推给 Bambu Lab 打印机开印。",
+      "kw": ["切片器", "Bambu Lab"],
+      "cues": [{"at": "切片器", "sticker": "从图到实体", "mark": "print"}]},
+
+    {"id": "free", "shot": "free", "text": "而且 100% 免米开源，全部跑在你自己电脑上。",
+      "kw": ["100% 免米", "自己电脑"],
+      "cues": [{"at": "100%", "mark": "free"}]},
+
+    {"id": "cta", "shot": null, "text": "想试试的兄弟赶紧冲。记得点赞、关注我，持续分享高质量的开源项目，一起进步，我们下期再见。",
+      "kw": ["点赞", "关注"]}
+  ]
+}

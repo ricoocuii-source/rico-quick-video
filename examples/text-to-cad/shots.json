@@ -1,0 +1,85 @@
+{
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "color_scheme": "dark",
+  "shots": [
+    {
+      "id": "intro",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "target": "article img",
+      "action": "point",
+      "role": "intro"
+    },
+    {
+      "id": "repo",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "target": "strong[itemprop=name] a",
+      "action": "hover"
+    },
+    {
+      "id": "stars",
+      "target": "#repo-stars-counter-star",
+      "action": "point"
+    },
+    {
+      "id": "hero",
+      "url": "https://www.texttocad.dev",
+      "record": 6.5,
+      "settle": 2.5,
+      "zoom": 1.18,
+      "focus": [
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "id": "viewer",
+      "url": "https://www.texttocad.dev",
+      "target": "canvas",
+      "action": "point"
+    },
+    {
+      "id": "skills",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "target": "article h2:has-text('Skills')",
+      "action": "point",
+      "extend": 2
+    },
+    {
+      "id": "parts",
+      "url": "https://www.texttocad.dev",
+      "text": "Finds off-the-shelf STEP parts like screws, bearings, motors, and connectors.",
+      "up": 2,
+      "action": "hover"
+    },
+    {
+      "id": "robot",
+      "url": "file:///ABS/PATH/TO/assets/urdf-demo.gif",
+      "target": "img",
+      "action": "point",
+      "css": "body{display:flex;justify-content:center;align-items:center;height:100vh;margin:0;overflow:hidden} img{max-width:920px}"
+    },
+    {
+      "id": "dfam",
+      "url": "https://www.texttocad.dev",
+      "text": "Measures mesh printability per process: wall thickness, overhangs, support volume, and build orientation.",
+      "up": 2,
+      "action": "hover"
+    },
+    {
+      "id": "print",
+      "url": "https://www.texttocad.dev",
+      "text": "Dry-runs, uploads, and cautiously starts local Bambu Lab print jobs from validated .gcode.",
+      "up": 2,
+      "action": "hover"
+    },
+    {
+      "id": "free",
+      "url": "https://www.texttocad.dev",
+      "text": "A library of agent skills for CAD, CAE and CAM. 100% open source + free, runs locally",
+      "action": "select"
+    }
+  ]
+}
